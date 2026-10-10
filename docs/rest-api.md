@@ -31,6 +31,8 @@ for row in r.json()["data"]:
 
 All endpoints are `GET`. Responses are JSON and are never cached. Lists are paginated: send the previous page's `pagination.next_cursor` back as `cursor`, unchanged, with the same filters.
 
+Responses are `{ "data": ..., "pagination": ..., "meta": ... }`. Each key may make 60 requests per minute and 5,000 per day (UTC windows), with at most 100 rows per request; over a limit you get `429` and a `Retry-After` header.
+
 ## Endpoints
 
 | Endpoint | What it returns |
