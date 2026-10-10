@@ -18,6 +18,7 @@ Every insider trade is placed against that company's own record since 2006 (abou
 ## Free, no account
 
 - [Rare insider trades this week](https://oqro.io/rare-insider-trades)
+- Free feed of the same list: [RSS](https://oqro.io/rare-insider-trades/feed.xml), [CSV](https://oqro.io/rare-insider-trades/data.csv), [JSON](https://oqro.io/rare-insider-trades/data.json) and an embeddable list (snippet on the page). Free to use; please credit OQRO with a link.
 - [Weekly recap of insider and Congress trades](https://oqro.io/weekly) (one page per week since October 2024)
 - [Every company page](https://oqro.io/stocks/AAPL) shows one real filing and the counts of the last 12 months
 - [Insider trades day by day](https://oqro.io/daily), [biggest insider buys](https://oqro.io/insiders/biggest-buys), [politician trades](https://oqro.io/political), [fund moves](https://oqro.io/institutions)
