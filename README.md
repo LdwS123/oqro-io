@@ -43,6 +43,7 @@ Every page, the full history, the screener, alerts, CSV exports, the REST API an
 |---|---|
 | **REST API** | Read-only JSON, base URL `https://oqro.io/api/v1`. See [docs/rest-api.md](docs/rest-api.md) and <https://oqro.io/docs/api>. |
 | **MCP server** | Use the same data from Claude, ChatGPT, Cursor or any MCP client: [LdwS123/oqro-mcp](https://github.com/LdwS123/oqro-mcp) (also in the official MCP Registry as `io.github.LdwS123/oqro`). |
+| **Examples** | [examples/](examples/): a Python script that saves insider trades to CSV, a no-key one-liner, and the MCP setup for Claude Code, Cursor and VS Code. |
 | **llms.txt** | <https://oqro.io/llms.txt> describes the site for AI assistants. |
 
 Both the API and the MCP server are free with a free OQRO account. Your requests and tool calls per day are shown in your account, under API keys and usage.
