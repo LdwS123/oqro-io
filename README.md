@@ -55,7 +55,7 @@ SEC EDGAR (Forms 3, 4, 5, 144, 13F, 13D/13G, 8-K and the insider transactions da
 
 - X: [@oqrofinance](https://x.com/oqrofinance)
 - LinkedIn: [OQRO](https://www.linkedin.com/company/oqro/)
-- Instagram: [@oqro.io](https://www.instagram.com/oqro.io/)
+- Instagram: [@oqrofinance](https://www.instagram.com/oqrofinance/)
 
 ## About this repository
 
