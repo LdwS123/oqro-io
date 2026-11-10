@@ -3,11 +3,11 @@
 Read-only JSON for insider trades, politician trades (Congress), 13F fund moves, federal contracts, lobbying, prices and a screener. Every row carries `source_url` (the official record) and `oqro_url` (the matching OQRO page). It is the same data as the [MCP server](https://github.com/LdwS123/oqro-mcp), for your own code.
 
 - **Base URL:** `https://oqro.io/api/v1`
-- **Access:** part of OQRO Pro. Every request needs an API key from a member account with an active subscription. Full, current reference: <https://oqro.io/docs/api>.
+- **Access:** free. Every request needs a personal API key, made in a free OQRO account (no credit card). Full, current reference: <https://oqro.io/docs/api>.
 
 ## Authentication
 
-Create a key in your account (API keys), name it and copy it: it is shown once. Send it as `Authorization: Bearer oqro_...` or in an `X-API-Key` header (if both are present, `Authorization` wins). Keys are personal and act for your account; the API stops answering if the subscription ends. You can hold 5 active keys. Call the API from servers or notebooks, never from a web page or distributed app: CORS headers are not sent, on purpose.
+Create a key in your account (API keys), name it and copy it: it is shown once. Send it as `Authorization: Bearer oqro_...` or in an `X-API-Key` header (if both are present, `Authorization` wins). Keys are personal and act for your account; they stop working if you revoke them or delete the account. You can hold 5 active keys, and the API keys page shows your requests per day. Call the API from servers or notebooks, never from a web page or distributed app: CORS headers are not sent, on purpose.
 
 ```bash
 export OQRO_API_KEY=oqro_...
