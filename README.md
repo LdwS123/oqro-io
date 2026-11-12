@@ -48,6 +48,8 @@ Every page, the full history, the screener, alerts, CSV exports, the REST API an
 
 Both the API and the MCP server are free with a free OQRO account. Your requests and tool calls per day are shown in your account, under API keys and usage.
 
+**For AI agents:** every public page is also plain Markdown at its own address with `.md` at the end, for example <https://oqro.io/stocks/AAPL.md>, with no account and no key. The guide for agents is at <https://oqro.io/agents> and the full index at <https://oqro.io/llms.txt>.
+
 ## Data sources
 
 SEC EDGAR (Forms 3, 4, 5, 144, 13F, 13D/13G, 8-K and the insider transactions data sets), House Clerk and Senate eFD periodic transaction reports, USAspending.gov, Lobbying Disclosure Act reports (lda.gov), FINRA short interest. Every record links to its source document. Amounts that are filed as ranges stay ranges.
